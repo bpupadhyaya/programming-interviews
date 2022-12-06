@@ -3,7 +3,7 @@
 
 class PalindromeNum {
     public static void main(String[] args){
-        int inputNum = 12321;
+        int inputNum = 1111;
         System.out.println("Result: " + isPalinNum(inputNum));
     }
 
@@ -11,8 +11,6 @@ class PalindromeNum {
         String input = inputNum+"";
         int len = input.length();
         boolean palin = true;
-        if (len % 2 == 0)
-            return false;
         for (int i = 0; i < len / 2; i++) {
             if (input.charAt(i) != input.charAt(len - i -1 ))
                 palin = false;

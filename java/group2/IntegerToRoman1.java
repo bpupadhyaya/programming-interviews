@@ -1,4 +1,4 @@
-// Convert a given interger to a roman numeral.
+// Convert a given integer to a roman numeral.
 // Time complexity: O(1), space complexity: O(1)
 
 class IntegerToRoman1 {

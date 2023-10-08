@@ -52,6 +52,6 @@ int main() {
     nums2.push_back(7);
     double median = findMedianOfTwoSortedArrays(nums1, nums2);
 
-    cout << median << " ";
+    cout << median << " \n";
 }
 

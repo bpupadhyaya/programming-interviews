@@ -1,0 +1,32 @@
+Approach 1: Merge and Sort
+----------
+Create a new array with a size equal to the total number of elements in both input arrays.
+Insert elements from both input arrays into the new array.
+Sort the new array.
+Find and return the median of the sorted array.
+Time Complexity:
+Worst case TC is O((m + n) * log(m + n)).
+Space Complexity:
+O(m + n), where ‘m’ and ‘n’ are the sizes of the arrays.
+
+Approach 2: Two-Pointer Method
+----------
+Initialize two pointers, i and j, both initially set to 0.
+Move the pointer that corresponds to the smaller value forward at each step.
+Continue moving the pointers until you have processed half of the total number of elements.
+Calculate and return the median based on the values pointed to by i and j.
+Time Complexity:
+O(m + n), where ‘m’ & ‘n’ are the sizes of the two arrays.
+Space Complexity:
+O(1).
+
+Approach 3: Binary Search
+-----------
+Use binary search to partition the smaller of the two input arrays into two parts.
+Find the partition of the larger array such that the sum of elements on the left side of the partition in both arrays is half of the total elements.
+Check if this partition is valid by verifying if the largest number on the left side is smaller than the smallest number on the right side.
+If the partition is valid, calculate and return the median.
+Time Complexity:
+O(logn/logm)
+Space Complexity:
+O(1)

@@ -10,6 +10,7 @@
 // Explanation: merged array = [4,5,6,7] and the median is (5+6)/2 = 5.5
 // Soln: Brute Forrce - Merge and Sort
 // TODO: pass pointer to array, instead of copying data, which is expensive for large data set
+// Note: use gcc compiler, example: gcc median_of_two_sorted_arrays.c, g++ compiler doesn't recognize qsort(...)
 
 #include <stdio.h>
 

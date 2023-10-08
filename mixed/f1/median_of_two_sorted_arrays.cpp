@@ -8,8 +8,9 @@
 // Sample 2: Input: nums1 = [4,5], nums2 = [6,7]
 // Output:
 // Explanation: merged array = [4,5,6,7] and the median is (5+6)/2 = 5.5
-// Soln: Brute Forrce - Merge and Sort
-// Note: Fix the linker error
+// Soln: Brute Force - Merge and Sort
+// Note: use g++ compiler or equivalent, example: g++ median_of_two_sorted_arrays.cpp
+// gcc compiler produces linker error, it is for C programs
 
 #include <iostream>
 #include <vector>

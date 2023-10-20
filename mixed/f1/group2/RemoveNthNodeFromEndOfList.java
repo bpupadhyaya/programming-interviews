@@ -2,8 +2,6 @@
 // Sample 1:
 // Input: head = [1,2,3,4,5], n = 2
 // Output: [1,2,3,5]
-// Note: Needs fix in printing values, probably more.
-
 
 class ListNode {
     int value;
@@ -21,15 +19,15 @@ class RemoveNthNodeFromEndOfList {
     public static void main(String...args) {
         ListNode myNode = new ListNode(1);
         myNode.next = new ListNode(2);
-        myNode.next = new ListNode(3);
-        myNode.next = new ListNode(4);
-        myNode.next = new ListNode(5);
+        myNode.next.next = new ListNode(3);
+        myNode.next.next.next = new ListNode(4);
+        myNode.next.next.next.next = new ListNode(5);
 
         int n = 2;
         ListNode output = removeNthNodeFromEndOfList(myNode, n);
-        System.out.println(output.value);
-        System.out.println(output.next.value);
-        System.out.println(output.next.next.value);
+        System.out.print(output.value+", ");
+        System.out.print(output.next.value+", ");
+        System.out.print(output.next.next.value+", ");
         System.out.println(output.next.next.next.value);
     }
 

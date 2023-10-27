@@ -13,7 +13,6 @@ class RansomNote {
         String ransomNote = "aa";
         String magazine = "ab";
         System.out.println("Can construct? " + canConstruct(ransomNote, magazine));
-
     }
 
     static boolean canConstruct(String ransomNote, String magazine) {

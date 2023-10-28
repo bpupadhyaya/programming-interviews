@@ -16,6 +16,7 @@
 // Sample 1:
 // Input: board = [["E","E","E","E","E"],["E","E","M","E","E"],["E","E","E","E","E"],["E","E","E","E","E"]], click = [3,0]
 // Output: [["B","1","E","1","B"],["B","1","M","1","B"],["B","1","1","1","B"],["B","B","B","B","B"]]
+// Note: Program compiles but there is runtime error, fix it.
 
 class Minesweeper {
     public static void main(String...args) {

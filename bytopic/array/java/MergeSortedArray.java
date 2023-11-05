@@ -14,10 +14,10 @@
 
 class MergeSortedArray {
     public static void main(String...args) {
-        int[] nums1 = {1,2,3,0,0,0};
+        int[] nums1 = {4,5,8,0,0,0,0};
         int m = 3;
-        int[] nums2 = {2,5,6};
-        int n = 3;
+        int[] nums2 = {6,7,8,9};
+        int n = 4;
         merge(nums1, m, nums2, n);
         for (int i = 0; i < nums1.length; i++) {
             System.out.print(nums1[i] + ",");
@@ -39,3 +39,11 @@ class MergeSortedArray {
         }
     }
 }
+
+// Solution idea:
+// The main idea behind multiple pointers is that we start from the highest elements in both the array.
+// Compare the highest elements in both the arrays; whichever is higher, copy that to the max. available index
+// in nums1. Next, compare two highest available elements again and copy the greater one to the next max. available index
+// in nums1. Repeat this process. Our lower bound is index of both nums1 and nums2 should not be less than 0.
+// Less than 0 index is not available and that will resutl an error. That is the check we have in the above code:
+// while and if LOCs.

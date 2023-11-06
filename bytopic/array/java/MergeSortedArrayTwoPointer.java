@@ -12,7 +12,7 @@
 // Time complexity ~ O(m+n)
 // Space complexity ~ O(1)
 
-class MergeSortedArray {
+class MergeSortedArrayTwoPointer {
     public static void main(String...args) {
         int[] nums1 = {4,5,8,0,0,0,0};
         int m = 3;

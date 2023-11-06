@@ -12,6 +12,12 @@
 // Soln: two pointer
 // Time complexity ~ O(m+n)
 // Space complexity ~ O(1)
+// Typical compilation command (Mac OS):
+// g++ <source_file_name>
+// eg: g++ merge_two_sorted_arrays_easy.cpp
+// Typical run command :
+// ./<output_filename>
+// eg: ./a.out
 
 
 #include <iostream>

@@ -11,6 +11,7 @@
 // Soln: append and sort
 // Time complexity ~ O((m+n)log(m+n)), due to sort() function
 // Space complexity ~ O(1)
+// // Tag: 1/150
 
 import java.util.Arrays;
 class MergeSortedArrayEasy {

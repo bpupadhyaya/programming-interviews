@@ -16,19 +16,25 @@ class BestTimeToBuyAndSellStock {
     }
 
     static int maxProfit(int[] prices) {
-        int lsf = Integer.MAX_VALUE;
-        int op = 0;
-        int pist = 0;
+        int lowestPriceTracker = Integer.MAX_VALUE;
+        int maxProfitTracker = 0;
+        int currentDiffWithLowestPriceTracker = 0;
 
         for (int i = 0; i < prices.length; i++) {
-            if (prices[i] < lsf) {
-                lsf = prices[i];
+            if (prices[i] < lowestPriceTracker) {
+                lowestPriceTracker = prices[i];
             }
-            pist = prices[i] - lsf;
-            if (op < pist) {
-                op = pist;
+            currentDiffWithLowestPriceTracker = prices[i] - lowestPriceTracker;
+            if (maxProfitTracker < currentDiffWithLowestPriceTracker) {
+                maxProfitTracker = currentDiffWithLowestPriceTracker;
             }
         }
-        return op;
+        return maxProfitTracker;
     }
 }
+
+// Logic:
+// 1. Track the lowest price.
+// 2. Calculate the difference between current price and current lowest price from the past
+// 3. Track the max profit
+// 4. Return the last value of the max. profit

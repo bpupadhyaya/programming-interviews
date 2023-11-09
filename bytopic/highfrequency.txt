@@ -1,0 +1,219 @@
+HF list
+Array / String
+--------------
+1. Merge Sorted Array [g1]
+2. Remove Element [g1]
+3. Remove Duplicates from Sorted Array [g1]
+4. Remove Duplicates from Sorted Array II [g2]
+5. Majority Element [g1]
+6. Rotate Array [g2]
+7. Best Time to Buy and Sell Stock [g1]
+8. Best Time to Buy and Sell Stock II [g2]
+9. Jump Game [g2]
+10. Jump Game II [g2]
+11. H-Index [g2]
+12. Insert Delete GetRandom O(1) [g2]
+13. Product of Array Except Self [g2]
+14. Gas Station [g2]
+15. Candy [g3]
+16. Trapping Rain Water [g3]
+17. Roman to Integer [g1]
+18. Integer to Roman [g2]
+19. Length of Last Word [g1]
+20. Longest Common Prefix [g1]
+21. Reverse Words in a String [g2]
+22. Zigzag Conversion [g2]
+23. Find the Index of the First Occurrence in a String [g1]
+24. Text Justification [g3]
+
+Two Pointers
+------------
+25. Valid Palindrome [g1]
+26. Is Subsequence [g1]
+27. Two Sum II - Input Array Is Sorted [g2]
+28. Container With Most Water [g2]
+29. 3Sum [g2]
+
+Sliding Window
+--------------
+30. Minimum Size Subarray Sum [g2]
+31. Longest Substring Without Repeating Characters [g2]
+32. Substring with Concatenation of All Words [g3]
+33. Minimum Window Substring [g3]
+
+Matrix
+------
+34. Valid Sudoku [g2]
+35. Spiral Matrix [g2]
+36. Rotate Image [g2]
+37. Set Matrix Zeroes [g2]
+38. Game of Life [g2]
+
+Hashmap
+-------
+39. Ransom Note [g1]
+40. Isomorphic Strings [g1]
+41. Word Pattern [g1]
+42. Valid Anagram [g1]
+43. Group Anagrams [g2]
+44. Two Sum [g1]
+45. Happy Number [g1]
+46. Contains Duplicate II [g1]
+47. Longest Consecutive Sequence [g2]
+
+Intervals
+---------
+48. Summary Ranges [g1]
+49. Merge Intervals [g2]
+50. Insert Interval [g2]
+51. Minimum Number of Arrows to Burst Balloons [g2]
+
+Stack
+-----
+52. Valid Parentheses [g1]
+53. Simplify Path [g2]
+54. Min Stack [g2]
+55. Evaluate Reverse Polish Notation [g2]
+56. Basic Calculator [g3]
+
+Linked List
+-----------
+57. Linked List Cycle [g1]
+58. Add Two Numbers [g2]
+59. Merge Two Sorted Lists [g1]
+60. Copy List with Random Pointer [g2]
+61. Reverse Linked List II [g2]
+62. Reverse Nodes in k-Group [g3]
+63. Remove Nth Node From End of List [g2]
+64. Remove Duplicates from Sorted List II [g2]
+65. Rotate List [g2]
+66. Partition List [g2]
+67. LRU Cache [g2]
+
+Binary Tree General
+--------------------
+68. Maximum Depth of Binary Tree [g1]
+69. Same Tree [g1]
+70. Invert Binary Tree [g1]
+71. Symmetric Tree [g1]
+72. Construct Binary Tree from Preorder and Inorder Traversal [g2]
+73. Construct Binary Tree from Inorder and Postorder Traversal [g2]
+74. Populating Next Right Pointers in Each Node II [g2]
+75. Flatten Binary Tree to Linked List [g2]
+76. Path Sum [g1]
+77. Sum Root to Leaf Numbers [g2]
+78. Binary Tree Maximum Path Sum [g3]
+79. Binary Search Tree Iterator [g2]
+80. Count Complete Tree Nodes [g1]
+81. Lowest Common Ancestor of a Binary Tree [g2]
+
+Binary Tree BFS
+---------------
+82. Binary Tree Right Side View [g2]
+83. Average of Levels in Binary Tree [g1]
+84. Binary Tree Level Order Traversal [g2]
+85. Binary Tree Zigzag Level Order Traversal [g2]
+
+Binary Search Tree
+------------------
+86. Minimum Absolute Difference in BST [g1]
+87. Kth Smallest Element in a BST [g2]
+88. Validate Binary Search Tree [g2]
+
+Graph General
+--------------
+89. Number of Islands [g2]
+90. Surrounded Regions [g2]
+91. Clone Graph [g2]
+92. Evaluate Division [g2]
+93. Course Schedule [g2]
+94. Course Schedule II [g2]
+
+Graph BFS
+----------
+95. Snakes and Ladders [g2]
+96. Minimum Genetic Mutation [g2]
+97. Word Ladder [g3]
+
+Trie
+----
+98. Implement Trie (Prefix Tree) [g2]
+99. Design Add and Search Words Data Structure [g2]
+100. Word Search II [g3]
+
+Backtracking
+------------
+101. Letter Combinations of a Phone Number [g2]
+102. Combinations [g2]
+103. Permutations [g2]
+104. Combination Sum [g2]
+105. N-Queens II [g3]
+106. Generate Parentheses [g2]
+107. Word Search [g2]
+
+Divide & Conquer
+----------------
+108. Convert Sorted Array to Binary Search Tree [g1]
+109. Sort List [g2]
+110. Construct Quad Tree [g2]
+111. Merge k Sorted Lists [g3]
+
+Kadane's Algorithm
+------------------
+112. Maximum Subarray [g2]
+113. Maximum Sum Circular Subarray [g2]
+
+Binary Search
+-------------
+114. Search Insert Position [g1]
+115. Search a 2D Matrix [g2]
+116. Find Peak Element [g2]
+117. Search in Rotated Sorted Array [g2]
+118. Find First and Last Position of Element in Sorted Array [g2]
+119. Find Minimum in Rotated Sorted Array [g2]
+120. Median of Two Sorted Arrays [g3]
+
+Heap
+----
+121. Kth Largest Element in an Array [g2]
+122. IPO [g3]
+123. Find K Pairs with Smallest Sums [g2]
+124. Find Median from Data Stream [g3]
+
+Bit Manipulation
+----------------
+125. Add Binary [g1]
+126. Reverse Bits [g1]
+127. Number of 1 Bits [g1]
+128. Single Number [g1]
+129. Single Number II [g2]
+130. Bitwise AND of Numbers Range [g2]
+
+Math
+----
+131. Palindrome Number [g1]
+132. Plus One [g1]
+133. Factorial Trailing Zeroes [g2]
+134. Sqrt(x) [g1]
+135. Pow(x, n) [g2]
+136. Max Points on a Line [g3]
+
+1D DP
+-----
+137. Climbing Stairs [g1]
+138. House Robber [g2]
+139. Word Break [g2]
+140. Coin Change [g2]
+141. Longest Increasing Subsequence [g2]
+
+Multidimensional DP
+-------------------
+142. Triangle [g2]
+143. Minimum Path Sum [g2]
+144. Unique Paths II [g2]
+145. Longest Palindromic Substring [g2]
+146. Interleaving String [g2]
+147. Edit Distance [g2]
+148. Best Time to Buy and Sell Stock III [g3]
+149. Best Time to Buy and Sell Stock IV [g3]
+150. Maximal Square [g2]

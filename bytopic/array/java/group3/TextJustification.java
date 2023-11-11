@@ -88,3 +88,6 @@ class TextJustification {
 // The word "is" is added to the current line.
 // The word "an" is added to the current line, completing it with the string "This is an".
 // The word "example" starts a new line.
+// Complexity:
+// Time Complexity ~ O(n), where n is the number of words.
+// Space Complexity ~ O(n×m), where n is the number of words and m is the average length of the words.

@@ -10,7 +10,7 @@
 // Input: s = "(]"
 // Output: false
 // Tag: 52/150
-// Tag: 20
+// Tag: 20/2927
 
 import java.util.Stack;
 class ValidParentheses {

@@ -14,6 +14,8 @@
 // Tag: 57/150
 // Tag: 141/2927
 
+import java.util.HashSet;
+import java.util.Set;
 class ListNode {
     int val;
     ListNode next;
@@ -35,23 +37,30 @@ class LinkedListCycle {
     }
 
     static boolean hasCycle(ListNode head) {
-        ListNode slowPointer = head;
-        ListNode fastPointer = head;
-        while (fastPointer != null && fastPointer.next != null) {
-            slowPointer = slowPointer.next;
-            fastPointer = fastPointer.next.next;
-            if (slowPointer == fastPointer)
+        Set<ListNode> visitedNodes = new HashSet<>();
+        ListNode currentNode = head;
+
+        while (currentNode != null) {
+            if (visitedNodes.contains(currentNode)) {
                 return true;
+            }
+            visitedNodes.add(currentNode);
+            currentNode = currentNode.next;
         }
+
         return false;
     }
 }
 
-// Verify this:
-// Two-Pointers Method (Floyd's Cycle-Finding Algorithm):
-// Also known as the "hare and tortoise" algorithm, this method employs two pointers that move at different speeds.
-// If there is a cycle, the fast pointer will eventually catch up to the slow pointer, confirming the cycle's
-// existence.
+// Steps:
+// 1. Initialization:
+// - Create an empty set, visited_nodes, to keep track of the nodes that have been visited.
+// 2. Traversal and Verification:
+// - Traverse the list starting from the head node.
+// - At each node, check whether it already exists in visited_nodes.
+// - If it does, return True as a cycle is detected.
+// - Otherwise, add the node to visited_nodes.
+//
 // Complexity Analysis
-// Time Complexity ~ O(n) — In the worst-case scenario, each node is visited once.
-// Space Complexity ~ O(1) — Constant space is used.
+// Time Complexity ~ O(n) — Each node is visited once.
+// Space Complexity ~ O(n) — To store visited nodes.

@@ -1,0 +1,19 @@
+Facebook 620
+Apple 615
+Amazon 1293
+Google 1203
+Microsoft 673
+Bloomberg 568
+TikTok 272
+Goldman Sachs 136
+Salesforce 120
+Uber 425
+Adobe 554
+Citadel 52
+Oracle 217
+Nvidia50
+Walmart Labs 106
+Atlassian 37
+IBM 43
+Pinterest 34
+JPMorgan 66

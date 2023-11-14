@@ -98,7 +98,6 @@
 [<-R] 98. Validate Binary Search Tree  [g2]
 [<-R] 329. Longest Increasing Path in a Matrix  [g3]
 [<-R] 297. Serialize and Deserialize Binary Tree  [g3]
-[<-R] 
 [<-R] 131. Palindrome Partitioning  [g2]
 [<-R] 387. First Unique Character in a String  [g1]
 [<-R] 395. Longest Substring with At Least K Repeating Characters  [g2]

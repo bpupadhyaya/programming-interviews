@@ -11,7 +11,7 @@ Uber 425
 Adobe 554
 Citadel 52
 Oracle 217
-Nvidia50
+Nvidia 50
 Walmart Labs 106
 Atlassian 37
 IBM 43

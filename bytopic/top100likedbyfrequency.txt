@@ -1,4 +1,4 @@
-[<-R] Two Sum  [g1]
+[<-R] 1. Two Sum  [g1]
 [<-R] 20. Valid Parentheses  [g1] 
 [<-R] 3. Longest Substring Without Repeating Characters  [g2] 
 [<-R] 13. Roman to Integer  [g1] 

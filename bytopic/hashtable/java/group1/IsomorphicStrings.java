@@ -11,7 +11,9 @@
 // Example 3:
 // Input: s = "paper", t = "title"
 // Output: true
+//
 // Tag: 40/150
+// Tag: 205/2927, R438/2936 (overall frequency ranking)
 
 class IsomorphicStrings {
     public static void main(String...args) {

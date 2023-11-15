@@ -10,7 +10,9 @@
 //Output: 2
 //Explanation: The minimum number of jumps to reach the last index is 2. Jump 1 step from index 0 to 1,
 // then 3 steps to the last index.
+//
 // Tag: 10/150
+// Tag: 45/2927, R258/2936 (overall frequency ranking)
 // TODO : change variable names to more readable
 
 class JumpGameII {

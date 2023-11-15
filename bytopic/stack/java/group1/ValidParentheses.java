@@ -9,8 +9,9 @@
 // Example 2:
 // Input: s = "(]"
 // Output: false
+//
 // Tag: 52/150
-// Tag: 20/2927
+// Tag: 20/2927, R2/2936 (overall frequency ranking)
 
 import java.util.Stack;
 class ValidParentheses {

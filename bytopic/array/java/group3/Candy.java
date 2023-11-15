@@ -8,7 +8,9 @@
 // Output: 4
 // Explanation: You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
 // The third child gets 1 candy because it satisfies the above two conditions.
+//
 // Tag: 15/150
+// Tag: 135/2927, R87/2936 (overall frequency ranking)
 
 class Candy {
     public static void main(String[] args) {

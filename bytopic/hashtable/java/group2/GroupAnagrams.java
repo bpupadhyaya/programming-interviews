@@ -4,7 +4,9 @@
 // Example:
 // Input: strs = ["eat","tea","tan","ate","nat","bat"]
 // Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+//
 // Tag: 43/150
+// Tag: 49/2927, R40/2936 (overall frequency ranking)
 
 import java.util.Arrays;
 import java.util.ArrayList;

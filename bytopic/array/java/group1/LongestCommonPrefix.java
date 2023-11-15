@@ -3,7 +3,9 @@
 // Example:
 // Input: strs = ["flower","flow","flight"]
 // Output: "fl"
+//
 // Tag: 20/150
+// Tag: 14/2927, R13/2936 (overall frequency ranking)
 
 import java.util.Arrays;
 class LongestCommonPrefix {

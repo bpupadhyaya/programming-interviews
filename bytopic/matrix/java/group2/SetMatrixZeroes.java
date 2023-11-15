@@ -4,7 +4,9 @@
 // Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
 // Output: [[1,0,1],[0,0,0],[1,0,1]]
 // Note: Visualize to understand
+//
 // Tag: 37/150
+// Tag: 73/2927, R91/2936 (overall frequency ranking)
 
 import java.util.Arrays;
 class SettingMatrixElemToZeroes {

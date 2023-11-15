@@ -9,7 +9,9 @@
 // citations respectively.
 // Since the researcher has 3 papers with at least 3 citations each and the remaining two with no more than 3
 // citations each, their h-index is 3.
-// // Tag: 11/150
+//
+// Tag: 11/150
+// Tag: 274/2927, R710/2936 (overall frequency ranking)
 
 class HIndex {
     public static void main(String[] args) {

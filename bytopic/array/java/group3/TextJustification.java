@@ -17,7 +17,9 @@
 //    "example  of text",
 //    "justification.  "
 // ]
+//
 // Tag: 24/150
+// Tag: 68/2927, R50/2936 (overall frequency ranking)
 
 import java.util.ArrayList;
 import java.util.List;

@@ -13,7 +13,9 @@
 // 8^2 + 2^2 = 68
 // 6^2 + 8^2 = 100
 // 1^2 + 0^2 + 0^2 = 1
+//
 // Tag: 45/150
+// Tag: 202/2927, R157/2936 (overall frequency ranking)
 
 import java.util.HashSet;
 import java.util.Set;

@@ -5,7 +5,9 @@
 // Input: nums = [2,7,11,15], target = 9
 // Output: [0,1]
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+//
 // Tag: 44/150
+// Tag: 1/2927, R1/2936 (overall frequency ranking)
 
 import java.util.Arrays;
 import java.util.HashMap;

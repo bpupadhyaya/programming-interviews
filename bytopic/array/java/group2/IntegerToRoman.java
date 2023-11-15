@@ -21,7 +21,9 @@
 // Input: num = 1994
 // Output: "MCMXCIV"
 // Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+//
 // Tag: 18/150
+// Tag: 12/2927, R185/2936 (overall frequency ranking)
 
 class IntegerToRoman {
     public static void main(String[] args) {

@@ -20,7 +20,9 @@
 //Output: false
 //Explanation: Same as Example 1, except with the 5 in the top left corner being modified to 8. Since there
 // are two 8's in the top left 3x3 sub-box, it is invalid.
+//
 // Tag: 34/150
+// Tag: 36/2927, R168/2936 (overall frequency ranking)
 
 import java.util.HashSet;
 import java.util.Set;

@@ -5,7 +5,9 @@
 // Input: s = "A man, a plan, a canal: Panama"
 // Output: true
 // Explanation: "amanaplanacanalpanama" is a palindrome.
+//
 // Tag: 25/150
+// Tag: 125/2927, R117/2936 (overall frequency ranking)
 
 class ValidPalindrome {
     public static void main(String...args) {

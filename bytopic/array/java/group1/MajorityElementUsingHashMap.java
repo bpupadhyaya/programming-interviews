@@ -4,7 +4,9 @@
 // Example:
 // Input: nums = [2,2,1,1,1,2,2]
 // Output: 2
+//
 // Tag: 5/150
+// Tag: 169/2927, R89/2936 (overall frequency ranking)
 
 import java.util.Collections;
 import java.util.HashMap;

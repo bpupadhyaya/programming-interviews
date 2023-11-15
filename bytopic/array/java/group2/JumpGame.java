@@ -10,7 +10,9 @@
 // Output: false
 // Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it
 // impossible to reach the last index.
+//
 // Tag: 9/150
+// Tag: 55/2927, R30/2936 (overall frequency ranking)
 
 class JumpGame {
     public static void main(String[] args) {

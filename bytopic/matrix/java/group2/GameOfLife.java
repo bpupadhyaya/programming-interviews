@@ -17,7 +17,9 @@
 // Input: board = [[1,1],[1,0]]
 // Output: [[1,1],[1,1]]
 // Note: Visualize to understand
+//
 // Tag: 38/150
+// Tag: 289/2927, R720/2936 (overall frequency ranking)
 // Note: program compiles but the output is not correct, debug and fix.
 
 import java.util.Arrays;

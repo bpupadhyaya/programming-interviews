@@ -12,7 +12,9 @@
 // [[], [1], [2], [2], [], [1], [2], []]
 // Output
 // [null, true, false, true, 2, true, false, 2]
+//
 // Tag: 12/150
+// Tag: 380/2927, R137/2936 (overall frequency ranking)
 
 import java.util.ArrayList;
 import java.util.HashMap;

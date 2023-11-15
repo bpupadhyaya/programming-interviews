@@ -9,7 +9,9 @@
 // Example 3:
 // Input: pattern = "aaaa", s = "dog cat cat dog"
 // Output: false
+//
 // Tag: 41/150
+// Tag: 290/2927, R815/2936 (overall frequency ranking)
 
 import java.util.HashMap;
 import java.util.Map;

@@ -4,7 +4,9 @@
 // Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
 // Output: [[1,6],[8,10],[15,18]]
 // Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
+//
 // Tag: 49/150
+// Tag: 56/2927, R19/2936 (overall frequency ranking)
 
 import java.util.Arrays;
 import java.util.LinkedList;

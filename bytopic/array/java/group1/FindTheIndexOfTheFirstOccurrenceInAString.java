@@ -5,7 +5,9 @@
 // Output: 0
 // Explanation: "sad" occurs at index 0 and 6.
 // The first occurrence is at index 0, so we return 0.
+//
 // Tag: 23/150
+// Tag: 28/2927, R294/2936 (overall frequency ranking)
 
 class FindingTheIndexOfTheFirstOccurrenceInAString {
     public static void main(String...args) {

@@ -6,7 +6,9 @@
 // Example 2:
 // Input: nums = [1,2,3,1,2,3], k = 2
 // Output: false
+//
 // Tag: 46/150
+// Tag: 219/2927, R402/2936 (overall frequency ranking)
 
 import java.util.HashSet;
 import java.util.Set;

@@ -14,7 +14,9 @@
 // [2,4] --> "2->4"
 // [6,6] --> "6"
 // [8,9] --> "8->9"
+//
 // Tag: 48/150
+// Tag: 228/2927, R295/2936 (overall frequency ranking)
 
 import java.util.ArrayList;
 import java.util.List;

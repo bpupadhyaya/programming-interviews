@@ -5,7 +5,7 @@
 // Output: [1,4,3,2,5]
 //
 // Tag: 61/150
-// Tag: 92/2927
+// Tag: 92/2927, R306/2936 (overall frequency ranking)
 
 class ListNode {
     int value;

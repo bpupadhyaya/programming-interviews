@@ -3,7 +3,9 @@
 // Input: s = "   fly me   to   the moon  "
 // Output: 4
 // Explanation: The last word is "moon" with length 4.
+//
 // Tag: 19/150
+// Tag: 58/2927, R712/2936 (overall frequency ranking)
 
 class LengthOfLastWord {
     public static void main(String...args) {

@@ -7,7 +7,9 @@
 // Example 2:
 // Input: ransomNote = "aa", magazine = "ab"
 // Output: false
+//
 // Tag: 39/150
+// Tag: 383/2927, R502/2936 (overall frequency ranking)
 
 class RansomNote {
     public static void main(String[] args) {

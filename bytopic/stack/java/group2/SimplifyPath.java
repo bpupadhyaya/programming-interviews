@@ -14,8 +14,9 @@
 // Input: path = "/home//foo/"
 // Output: "/home/foo"
 // Explanation: In the canonical path, multiple consecutive slashes are replaced by a single one.
+//
 // Tag: 53/150
-// Tag: 71/2927
+// Tag: 71/2927, R349/2936 (overall frequency ranking)
 
 import java.util.Stack;
 class PathSimplification {

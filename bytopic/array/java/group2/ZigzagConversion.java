@@ -17,7 +17,9 @@
 // A   L S  I G
 // Y A   H R
 // P     I
+//
 // Tag: 22/150
+// Tag: 6/2927, R184/2936 (overall frequency ranking)
 
 class ZigzagConversion {
     public static void main(String...args) {

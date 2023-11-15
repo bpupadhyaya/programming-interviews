@@ -7,7 +7,9 @@
 // Example 2:
 // Input: s = "rat", t = "car"
 // Output: false
+//
 // Tag: 42/150
+// Tag: 242/2927, R86/2936 (overall frequency ranking)
 
 import java.util.HashMap;
 import java.util.Map;

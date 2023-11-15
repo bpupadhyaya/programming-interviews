@@ -10,7 +10,9 @@
 // The substring starting at 0 is "barfoo". It is the concatenation of ["bar","foo"] which is a permutation of words.
 // The substring starting at 9 is "foobar". It is the concatenation of ["foo","bar"] which is a permutation of words.
 // The output order does not matter. Returning [9,0] is fine too.
+//
 // Tag: 32/150
+// // Tag: 30/2927, R468/2936 (overall frequency ranking)
 
 import java.util.ArrayList;
 import java.util.List;

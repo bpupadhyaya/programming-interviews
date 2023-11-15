@@ -5,7 +5,9 @@
 // Example:
 // Input: s = "abc", t = "ahbgdc"
 // Output: true
+//
 // Tag: 26/150
+// Tag: 392/2927, R348/2936 (overall frequency ranking)
 
 class SubsequenceDetection {
     public static void main(String[] args) {

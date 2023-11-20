@@ -46,3 +46,9 @@ class BestTimeToBuyAndSellStockIV {
         return profit;
     }
 }
+
+
+// Time ~ O(k * n)
+// Space ~ O(k * n)
+// k = K transactions
+// n = prices.length

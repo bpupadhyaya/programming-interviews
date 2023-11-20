@@ -16,7 +16,7 @@
 // Explanation: In the canonical path, multiple consecutive slashes are replaced by a single one.
 //
 // Tag: 53/150
-// Tag: 71/2927, R349/2936 (overall frequency ranking)
+// Tag: 71/2927, R349/2936 (overall frequency ranking), fb R20/50
 
 import java.util.Stack;
 class PathSimplification {

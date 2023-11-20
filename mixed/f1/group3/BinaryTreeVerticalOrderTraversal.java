@@ -13,6 +13,7 @@
 // Column 1: Only node 20 is in this column.
 // Column 2: Only node 7 is in this column.
 // Note: program revisit required, output is correct but not in right format.
+// Tag: fb R7/50
 
 import java.util.List;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
 // Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 //
 // Tag: 49/150
-// Tag: 56/2927, R19/2936 (overall frequency ranking)
+// Tag: 56/2927, R19/2936 (overall frequency ranking), fb R1/50
 
 import java.util.Arrays;
 import java.util.LinkedList;

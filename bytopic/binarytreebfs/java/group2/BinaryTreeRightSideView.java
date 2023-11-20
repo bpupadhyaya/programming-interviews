@@ -6,7 +6,7 @@
 // Note: visualize to understand
 //
 // Tag: 82/150
-// Tag: 199/2927, R549/2936 (overall frequency ranking)
+// Tag: 199/2927, R549/2936 (overall frequency ranking), fb R23/50
 
 import java.util.ArrayList;
 import java.util.List;

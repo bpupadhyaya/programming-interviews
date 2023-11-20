@@ -15,7 +15,7 @@
 // the peak element is 6.
 //
 // Tag: 116/150
-// Tag: 162/2927, R162/2936 (overall frequency ranking)
+// Tag: 162/2927, R162/2936 (overall frequency ranking), fb R11/50
 
 class FindPeakElement {
     public static void main(String[] args) {

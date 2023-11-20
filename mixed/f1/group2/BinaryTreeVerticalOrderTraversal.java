@@ -5,6 +5,7 @@
 // Input: root = [3,9,20,null,null,15,7]
 // Output: [[9],[3,15],[20],[7]]
 // Note: visualize to understand
+// Tag: fb R7/50
 
 import java.util.ArrayList;
 import java.util.List;

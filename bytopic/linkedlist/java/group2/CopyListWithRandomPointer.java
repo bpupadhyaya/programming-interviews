@@ -22,7 +22,7 @@
 // Note: Elements are copied but random pointers didn't get printed, debug and fix.
 //
 // Tag: 60/150
-// Tag: 138/2927, R116/2936 (overall frequency ranking)
+// Tag: 138/2927, R116/2936 (overall frequency ranking), fb R8/50
 
 import java.util.HashMap;
 

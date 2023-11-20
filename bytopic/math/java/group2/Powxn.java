@@ -4,7 +4,7 @@
 // Output: 0.25000
 //
 // Tag: 135/150
-// Tag: 50/2927, R98/2936 (overall frequency ranking)
+// Tag: 50/2927, R98/2936 (overall frequency ranking), fb R5/50
 
 class Powxn {
     public static void main(String...args) {

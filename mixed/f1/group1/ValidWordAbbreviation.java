@@ -16,6 +16,7 @@
 // Input: word = "internationalization", abbr = "i12iz4n"
 // Output: true
 // Explanation: The word "internationalization" can be abbreviated as "i12iz4n" ("i nternational iz atio n").
+// Tag: fb R17/50
 
 class ValidWordAbbreviation {
     public static void main(String...args) {

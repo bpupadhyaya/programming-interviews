@@ -7,7 +7,7 @@
 // Explanation: "amanaplanacanalpanama" is a palindrome.
 //
 // Tag: 25/150
-// Tag: 125/2927, R117/2936 (overall frequency ranking)
+// Tag: 125/2927, R117/2936 (overall frequency ranking), fb R9/50
 
 class ValidPalindrome {
     public static void main(String...args) {

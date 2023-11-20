@@ -26,3 +26,6 @@ class BestTimeToBuyAndSellStockInfiniteTransactions {
         return profit;
     }
 }
+
+// Time ~ O(n)
+// Space ~ O(1)

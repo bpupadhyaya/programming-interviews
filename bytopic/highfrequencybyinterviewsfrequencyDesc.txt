@@ -2098,7 +2098,6 @@
 [<-R] 1450. Number of Students Doing Homework at a Given Time  [g1]
 [<-R] 1467. Probability of a Two Boxes Having The Same Number of Distinct Balls  [g3]
 [<-R] 2120. Execution of All Suffix Instructions Staying in a Grid  [g2]
-[<-R] 
 [<-R] 2166. Design Bitset  [g2]
 [<-R] 2503. Maximum Number of Points From Grid Queries  [g3]
 [<-R] 2780. Minimum Index of a Valid Split  [g2]

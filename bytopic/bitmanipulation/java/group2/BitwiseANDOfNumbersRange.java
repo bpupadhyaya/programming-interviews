@@ -5,7 +5,7 @@
 // Output: 4
 //
 // Tag: 130/150
-// Tag: 201/2927, R203/2936 (overall frequency ranking)
+// Tag: 201/2927, R2106/2936 (overall frequency ranking)
 
 class BitwiseANDOfNumbersRange {
     public static void main(String[] args) {

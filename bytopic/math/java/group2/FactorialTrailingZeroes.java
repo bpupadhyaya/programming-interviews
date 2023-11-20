@@ -10,7 +10,7 @@
 // Explanation: 3! = 6, no trailing zero.
 //
 // Tag: 133/150
-// Tag: 172/2927, R174/2936 (overall frequency ranking)
+// Tag: 172/2927, R1049/2936 (overall frequency ranking)
 
 class FactorialTrailingZeroes {
     public static void main(String[] args) {

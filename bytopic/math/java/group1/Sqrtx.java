@@ -8,7 +8,7 @@
 // Explanation: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
 //
 // Tag: 134/150
-// Tag: 69/2927, R71/2936 (overall frequency ranking)
+// Tag: 69/2927, R187/2936 (overall frequency ranking)
 
 class Sqrtx {
     public static void main(String...args) {

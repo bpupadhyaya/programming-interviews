@@ -22,7 +22,7 @@
 // Output: 6
 //
 // Tag: 122/150
-// Tag: 502/2927, R504/2936 (overall frequency ranking)
+// Tag: 502/2927, R829/2936 (overall frequency ranking)
 
 import java.util.Arrays;
 import java.util.Collections;

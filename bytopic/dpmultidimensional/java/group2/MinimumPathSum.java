@@ -8,7 +8,7 @@
 // Note: Visualize to understand
 //
 // Tag: 143/150
-// Tag: 64/2927, R66/2936 (overall frequency ranking)
+// Tag: 64/2927, R375/2936 (overall frequency ranking)
 
 class MinimumPathSum {
     public static void main(String...args) {

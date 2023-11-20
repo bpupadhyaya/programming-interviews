@@ -15,7 +15,7 @@
 // Explanation: All possible pairs are returned from the sequence: [1,3],[2,3]
 //
 // Tag: 123/150
-// Tag: 373/2927, R375/2936 (overall frequency ranking)
+// Tag: 373/2927, R380/2936 (overall frequency ranking)
 
 import java.util.ArrayList;
 import java.util.List;

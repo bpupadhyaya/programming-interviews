@@ -9,7 +9,7 @@
 // Explanation: 11 = 5 + 5 + 1
 //
 // Tag: 140/150
-// Tag: 322/2927, R324/2936 (overall frequency ranking)
+// Tag: 322/2927, R115/2936 (overall frequency ranking)
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -15,7 +15,7 @@
 // Since s3 can be obtained by interleaving s1 and s2, we return true.
 //
 // Tag: 146/150
-// Tag: 97/2927, R99/2936 (overall frequency ranking)
+// Tag: 97/2927, R582/2936 (overall frequency ranking)
 
 import java.util.Stack;
 class InterleavingString {

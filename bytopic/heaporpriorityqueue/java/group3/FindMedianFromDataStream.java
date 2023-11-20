@@ -21,7 +21,7 @@
 // medianFinder.findMedian(); // return 2.0
 //
 // Tag: 124/150
-// Tag: 295/2927, R297/2936 (overall frequency ranking)
+// Tag: 295/2927, R304/2936 (overall frequency ranking)
 // Note: Program compiles but there is runtime error, debug and find out.
 
 import java.util.Collections;

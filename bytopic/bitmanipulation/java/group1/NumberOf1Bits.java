@@ -11,7 +11,7 @@
 // Explanation: The input binary string 00000000000000000000000000001011 has a total of three '1' bits.
 //
 // Tag: 127/150
-// Tag: 191/2927, R193/2936 (overall frequency ranking)
+// Tag: 191/2927, R883/2936 (overall frequency ranking)
 
 class NumberOf1Bits {
     public static void main(String[] args) {

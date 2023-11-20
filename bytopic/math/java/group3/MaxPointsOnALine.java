@@ -6,7 +6,7 @@
 // Note: Visualization may be needed to understand
 //
 // Tag: 136/150
-// Tag: 149/2927, R151/2936 (overall frequency ranking)
+// Tag: 149/2927, R289/2936 (overall frequency ranking)
 // Note: Program compiles but output is not correct, debug and find out.
 
 

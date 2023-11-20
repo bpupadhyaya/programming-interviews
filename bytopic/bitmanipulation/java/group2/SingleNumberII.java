@@ -6,7 +6,7 @@
 // Output: 99
 //
 // Tag: 129/150
-// Tag: 137/2927, R139/2936 (overall frequency ranking)
+// Tag: 137/2927, R186/2936 (overall frequency ranking)
 
 class SingleNumberII {
     public static void main(String[] args) {

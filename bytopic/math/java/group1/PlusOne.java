@@ -16,7 +16,7 @@
 // Thus, the result should be [1,0].
 //
 // Tag: 132/150
-// Tag: 66/2927, R68/2936 (overall frequency ranking)
+// Tag: 66/2927, R361/2936 (overall frequency ranking)
 
 import java.util.Arrays;
 class PlusOne {

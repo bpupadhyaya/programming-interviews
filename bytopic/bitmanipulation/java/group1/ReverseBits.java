@@ -12,7 +12,7 @@
 // so return 964176192 which its binary representation is 00111001011110000010100101000000.
 //
 // Tag: 126/150
-// Tag: 190/2927, R192/2936 (overall frequency ranking)
+// Tag: 190/2927, R961/2936 (overall frequency ranking)
 
 class ReversingBits {
     public static void main(String[] args) {

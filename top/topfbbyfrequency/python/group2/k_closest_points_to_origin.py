@@ -23,19 +23,32 @@ Explanation: The answer [[-2,4],[3,3]] would also be accepted.
 Tag: fb R27/50, 973/2927, R595/2936
 """
 
-import heapq;
+import heapq
 
 
 def k_closest(points: list[list[int]], k: int) -> list[list[int]]:
     heap = []
     for (x, y) in points:
-        dist = -(x*x + y*y)
-        if len(heap) == k:
-            heapq.heappushpop(heap, (dist, x, y))
-        else:
-            heapq.heappushpop(heap, (dist, x, y))
-    return [(x,y) for (dist,x,y) in heap]
+        dist = -(x**2 + y**2)
+        heapq.heappush(heap, (dist, x, y))
+        if len(heap) > k:
+            heapq.heappop(heap)
 
+    return [x[1:] for x in heap]
+
+
+def k_closest1(points: list[list[int]], k: int) -> list[list[int]]:
+    return heapq.nsmallest(k, points, key=lambda x: x[0]**2 + x[1]**2)
+
+
+def main():
+    points = [[1, 3], [-2, 2]]
+    k = 1
+    print('Output: ', k_closest1(points, k))
+
+
+if __name__ == "__main__":
+    main()
 
 """
 We keep a min heap of size K.

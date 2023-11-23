@@ -10,7 +10,7 @@ In this case, 6 units of rain water (blue section) are being trapped.
 Noted: Visualize to understand. black sections are the bars, blue sections are the gaps between bars that can hold
 water (could say that is water)
 
-Tag: 42/2927 , R7/2935 , R1/50 (amz)
+Tag: 42/2927 , R7/2935 , R2/50 (amz)
 """
 
 

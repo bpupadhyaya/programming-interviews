@@ -35,7 +35,7 @@ The pattern ("cart", "maps", "home") has score 1 (james).
 The pattern ("home", "home", "home") has score 0 (no user visited home 3 times).
 
 
-Tag: 348/2927 , R466/2935 , R24/50 (amz)
+Tag: 1152/2927 , R498/2935 , R24/50 (amz)
 """
 from collections import defaultdict
 from itertools import combinations

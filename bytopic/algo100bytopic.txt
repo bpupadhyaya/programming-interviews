@@ -1,0 +1,161 @@
+Algo 100 by topic:
+
+Array / String
+--------------
+1. Maximum Distance in Arrays [g2]
+2. Wiggle Sort [g2
+3. Confusing Number [g1]
+4. Perform String Shifts [g1]
+5. One Edit Distance [g2]
+6. Reverse Words in a String II [g2]
+7. Shortest Way to Form String [g2]
+
+Sliding Window
+--------------
+8. Longest Substring with At Most Two Distinct Characters [g2]
+9. Longest Substring with At Most K Distinct Characters [g2]
+10. Max Consecutive Ones II [g2]
+11. Find K-Length Substrings With No Repeated Characters [g2]
+
+Hashing
+-------
+12. Find Anagram Mappings [g1]
+13. Palindrome Permutation [g1]
+14. Sentence Similarity [g1]
+15. Single-Row Keyboard [g1]
+16. Group Shifted Strings [g2]
+17. Largest Unique Number [g1]
+18. Counting Elements [g1]
+19. Find Smallest Common Element in All Rows [g2]
+
+Matrix
+------
+20. Valid Word Square [g1]
+21. Lonely Pixel I [g2]
+22. Sparse Matrix Multiplication [g2]
+23. Candy Crush [g2]
+
+Intervals
+---------
+24. Missing Ranges [g1]
+25. Meeting Rooms [g1]
+26. Meeting Rooms II [g2]
+27. Add Bold Tag in String [g2]
+28. Remove Interval [g2]
+
+Stack
+-----
+29. Ternary Expression Parser [g2]
+30. Find Permutation [g2]
+31. Basic Calculator III [g3]
+
+Queue
+-----
+32. Moving Average from Data Stream [g1]
+33. First Unique Number [g2]
+
+Linked Lists
+-------------
+34. Delete N Nodes After M Nodes of a Linked List [g1]
+35. Insert into a Sorted Circular Linked List [g2]
+36. Plus One Linked List [g2]
+37. Print Immutable Linked List in Reverse [g2]
+
+Binary Tree - General
+----------------------
+38. Binary Tree Longest Consecutive Sequence [g2]
+39. Binary Tree Longest Consecutive Sequence II [g2]
+40. Count Univalue Subtrees [g2]
+41. Maximum Average Subtree [g2]
+42. Boundary of Binary Tree [g2]
+43. Find Leaves of Binary Tree [g2]
+44. Binary Tree Vertical Order Traversal [g2]
+
+Binary Search Tree
+-------------------
+45. Closest Binary Search Tree Value [g1]
+46. Closest Binary Search Tree Value II [g3]
+47. Verify Preorder Sequence in Binary Search Tree [g2]
+48. Two Sum BSTs [g2]
+49. Largest BST Subtree [g2]
+
+N-ary Tree
+----------
+50. Clone N-ary Tree [g2]
+51. Find Root of N-Ary Tree [g2]
+52. Diameter of N-Ary Tree [g2]
+
+Graph - General
+---------------
+53. Find the Celebrity [g2]
+54. Kill Process [g2]
+55. Number of Connected Components in an Undirected Graph [g2]
+56. All Paths from Source Lead to Destination [g2]
+57. Web Crawler [g2]
+58. Number of Islands II [g3]
+59. Number of Distinct Islands [g2]
+60. Parallel Courses [g2]
+
+Graph - BFS
+-----------
+61. The Maze [g2]
+62. The Maze II [g2]
+63. The Maze III [g3]
+64. Minimum Knight Moves [g2]
+65. Walls and Gates [g2]
+66. Shortest Distance from All Buildings [g3]
+67. Alien Dictionary [g3]
+
+Trie
+----
+68. Design In-Memory File System [g3]
+69. Design Search Autocomplete System [g3]
+
+Heap
+----
+70. High Five [g1]
+71. Minimum Cost to Connect Sticks [g2]
+72. Campus Bikes [g2]
+73. Rearrange String k Distance Apart [g3]
+
+Binary Search
+--------------
+74. Missing Number In Arithmetic Progression [g1]
+75. Missing Element in Sorted Array [g2]
+76. Find the Index of the Large Integer [g2]
+77. Check If a Number Is Majority Element in a Sorted Array [g1]
+78. Divide Chocolate [g3]
+79. Maximum Average Subarray II [g3]
+
+Design
+-------
+80. Design Tic-Tac-Toe [g2]
+81. Design Snake Game [g2]
+82. Design Compressed String Iterator [g1]
+83. Encode and Decode Strings [g2]
+84. Zigzag Iterator [g2]
+85. Max Stack [g3]
+86. Design A Leaderboard [g2]
+87. Serialize and Deserialize N-ary Tree [g3]
+88. Encode N-ary Tree to Binary Tree [g3]
+
+Backtracking
+------------
+89. Strobogrammatic Number II [g2]
+90. Factor Combinations [g2]
+91. Brace Expansion [g2]
+
+Dynamic Programming
+--------------------
+92. Paint Fence [g2]
+93. Paint House [g2]
+94. Paint House II [g3]
+95. 4 Keys Keyboard [g2]
+96. Handshakes That Don't Cross [g3]
+
+Math
+-----
+97. Armstrong Number [g1]
+98. Count Substrings with Only One Distinct Letter [g1]
+99. Guess the Majority in a Hidden Array [g2]
+100. Maximum Number of Ones [g3]

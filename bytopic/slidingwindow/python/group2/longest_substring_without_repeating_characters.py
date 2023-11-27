@@ -16,7 +16,7 @@ Tag: 31/150, 3/2927 R8/2935
 def length_of_longest_substring(s: str) -> int:
     n = len(s)
     max_length = 0
-    char_index = [-1] * 128;
+    char_index = [-1] * 128
     left = 0
 
     for right in range(n):

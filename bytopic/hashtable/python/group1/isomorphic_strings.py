@@ -31,10 +31,24 @@ def is_isomorphic(s: str, t: str) -> bool:
     return False
 
 
+def is_isomorphic_one_liner(s: str, t: str) -> bool:
+    return len(set(s)) == len(set(t)) == len(set(zip(s, t)))
+
+
+def is_isomorphic_using_hashmap(s: str, t: str) -> bool:
+    dic1, dic2 = {}, {}
+    for s1, t1 in zip(s, t):
+        if (s1 in dic1 and dic1[s1] != t1) or (t1 in dic2 and dic2[t1] != s1):
+            return False
+        dic1[s1] = t1
+        dic2[t1] = s1
+    return True
+
+
 def main():
     s = "egg"
     t = "add"
-    print(is_isomorphic(s, t))
+    print(is_isomorphic_using_hashmap(s, t))
 
 
 if __name__ == "__main__":

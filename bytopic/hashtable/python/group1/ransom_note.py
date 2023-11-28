@@ -23,10 +23,30 @@ def can_construct(ransom_note: str, magazine: str) -> bool:
     return False
 
 
+def can_construct_using_hashmap(ransom_note: str, magazine: str) -> bool:
+    # Create a dictionary to store character counts
+    dictionary = {}
+
+    # Iterate through the magazine and count characters
+    for char in magazine:
+        if char not in dictionary:
+            dictionary[char] = 1
+        else:
+            dictionary[char] += 1
+
+    # Iterate through the ransom note and check character counts
+    for char in ransom_note:
+        if char in dictionary and dictionary[char] > 0:
+            dictionary[char] -= 1
+        else:
+            return False
+    return True
+
+
 def main():
     ransom_note = "aa"
     magazine = "ab"
-    print(can_construct(ransom_note, magazine))
+    print(can_construct_using_hashmap(ransom_note, magazine))
 
 
 if __name__ == "__main__":

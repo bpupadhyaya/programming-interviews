@@ -92,7 +92,7 @@ def main():
     head.next.next.next.next = ListNode(5)
 
     res = reverse_between_using_stack(head, left, right)
-    print(head.val, head.next.val, head.next.next.val, head.next.next.next.val, head.next.next.next.next.val)
+    print(res.val, res.next.val, res.next.next.val, res.next.next.next.val, res.next.next.next.next.val)
 
 
 if __name__ == "__main__":

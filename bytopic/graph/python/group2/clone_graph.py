@@ -21,7 +21,7 @@ representation needs further work.
 
 Tag: 91/150
 Tag: 133/2927, R936/2936 (overall frequency ranking)
-Note: There is runtime error, debug and fix it.
+Note: Debug, note the result structure, and  print all the nodes
 """
 from collections import deque
 from typing import Optional
@@ -50,10 +50,17 @@ def clone_graph(node: Optional['Node']) -> Optional['Node']:
 
 
 def main():
-    graph = [Node(1, [2, 4]), Node(2, [1, 3]), Node(3, [2, 4]), Node(4, [1, 3])]
+    node1 = Node(1)
+    node2 = Node(2)
+    node3 = Node(3)
+    node4 = Node(4)
+    graph = [Node(1, [node2, node4]), Node(2, [node1, node3]), Node(3, [node2, node4]),
+             Node(4, [node1, node3])]
 
     res = clone_graph(graph[0])
-    print(res[0].val, res[0].neighbors)
+    print([[res.val, [res.neighbors[0].val, res.neighbors[1].val]],
+           # TODO print other nodes
+           ])
 
 
 if __name__ == "__main__":

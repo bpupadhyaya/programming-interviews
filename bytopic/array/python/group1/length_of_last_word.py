@@ -23,6 +23,10 @@ def length_of_last_word(s: str) -> int:
     return length
 
 
+def length_of_last_word_1(s: str) -> int:
+    return len(s.strip().split(" ")[-1])
+
+
 def main():
     s = "   fly me   to   the moon  "
     print(length_of_last_word(s))

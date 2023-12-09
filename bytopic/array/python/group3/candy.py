@@ -48,4 +48,24 @@ if __name__ == "__main__":
 Time and Space Complexity
 Time Complexity: O(n), for the single pass through the ratings array.
 Space Complexity: O(1), as we only use a few extra variables.
+
+Algo:
+1. Initialize Your Counters
+Start with ret = 1 because each child must have at least one candy. Initialize up, down, and peak to 0.
+
+2. Loop Through Ratings
+For each pair of adjacent children, compare their ratings. Here are the scenarios:
+- If the rating is increasing: Update up and peak by incrementing them by 1. Set down to 0. Add up + 1 to ret because 
+the current child must have one more candy than the previous child.
+- If the rating is the same: Reset up, down, and peak to 0, because neither an increasing nor a decreasing trend is 
+maintained. Add 1 to ret because the current child must have at least one candy.
+- If the rating is decreasing: Update down by incrementing it by 1. Reset up to 0. Add down to ret. Additionally, if 
+peak is greater than or equal to down, decrement ret by 1. This is because the peak child can share the same number 
+of candies as one of the children in the decreasing sequence, which allows us to reduce the total number of candies.
+
+3. Return the Total Candy Count
+- At the end of the loop, ret will contain the minimum total number of candies needed for all the children, 
+so return ret. By using up, down, and peak, we can efficiently traverse the ratings list just once, updating our 
+total candies count (ret) as we go. This method is efficient and helps us solve the problem in a single pass, 
+with a time complexity of O(n).
 """

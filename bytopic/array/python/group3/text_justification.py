@@ -46,3 +46,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+Note on implementation:
+From the question: the sentence "Extra spaces between words should be distributed as evenly as possible. 
+If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned 
+more spaces than the slots on the right" was just a really long and awkward way to say round robin. 
+The following line implements the round robin logic:
+
+for i in range(maxWidth - num_of_letters):
+                cur[i%(len(cur)-1 or 1)] += ' '
+What does this line do? Once you determine that there are only k words that can fit on a given line, you 
+know what the total length of those words is num_of_letters. Then the rest are spaces, and there 
+are (maxWidth - num_of_letters) of spaces. The "or 1" part is for dealing with the edge case len(cur) == 1.
+"""

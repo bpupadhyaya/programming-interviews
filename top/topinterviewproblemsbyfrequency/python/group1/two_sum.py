@@ -9,6 +9,12 @@ Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
+Constraints:
+2 <= nums.length <= 10^4
+-10^9 <= nums[i] <= 10^9
+-10^9 <= target <= 10^9
+Only one valid answer exists.
+
 Tag: 44/150, R1/145 (top interview frequency ranking)
 Tag: 1/2927, R1/2936 (overall frequency ranking)
 """

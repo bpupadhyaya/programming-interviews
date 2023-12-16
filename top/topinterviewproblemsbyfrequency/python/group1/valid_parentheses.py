@@ -12,6 +12,9 @@ Output: true
 Constraints:
 1 <= s.length <= 10^4
 s consists of parentheses only '()[]{}'.
+
+Tag: 52/150, R2/145 (top interview frequency ranking)
+Tag: 20/2927, R2/2936 (overall frequency ranking)
 """
 
 

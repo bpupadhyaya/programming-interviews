@@ -60,8 +60,33 @@ class LRUCache:
                 self.data.popitem(last=False)
 
 
+class LRUCache1:
+    # Time complexity: O(1) for one operation.
+    # Space complexity: O(1) for one operation.
+    # For Python 3.7+ dictionary iteration order is guaranteed to be in order of insertion.
+    def __init__(self, capacity):
+        self.dict = {}
+        self.free_space = capacity
+
+    def get(self, key):
+        if key not in self.dict:
+            return -1
+        self.dict[key] = self.dict.pop(key)
+        return self.dict[key]
+
+    def put(self, key, value):
+        if key in self.dict:
+            self.dict.pop(key)
+        else:
+            if self.free_space:
+                self.free_space -= 1
+            else:
+                self.dict.pop(next(iter(self.dict)))
+        self.dict[key] = value
+
+
 def main():
-    lru_cache = LRUCache(2)
+    lru_cache = LRUCache1(2)
     lru_cache.put(1, 1)             # cache is {1=1}
     lru_cache.put(2, 2)             # cache is {1=1, 2=2}
     print(lru_cache.get(1))         # return 1

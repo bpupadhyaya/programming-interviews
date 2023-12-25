@@ -19,6 +19,7 @@ The number of nodes in the tree is in the range [0, 10^4].
 -1000 <= Node.val <= 1000
 
 R100/145
+Note: Highly useful for data transformation and storage, also easy to understand.
 """
 
 

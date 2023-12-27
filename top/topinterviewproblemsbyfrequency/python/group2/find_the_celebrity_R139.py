@@ -34,7 +34,7 @@ Note: to be completed, create a graph to test. External service dependency
 
 
 def knows(a: int, b: int) -> bool:
-    pass # provided external service
+    pass  # provided external service
 
 
 def find_celebrity(n: int) -> int:
@@ -61,7 +61,7 @@ def find_celebrity(n: int) -> int:
 
 
 def main():
-    # Create graph
+    # Create graph todo
     pass
 
 

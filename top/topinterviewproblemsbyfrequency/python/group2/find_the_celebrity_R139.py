@@ -43,7 +43,7 @@ def find_celebrity(n: int) -> int:
         """
         checking if celebrity knows other labelled members of the party if he does then he is 
         not a celebrity switch the labelled member a celebrity. if he doesn't then he might be the
-        celebrity himself, discard the comapred labelled member.
+        celebrity himself, discard the compared labelled member.
         """
         if knows(celebrity, i):
             celebrity = i

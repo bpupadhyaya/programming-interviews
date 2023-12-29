@@ -22,7 +22,10 @@ def longest_palindrome(s: str) -> str:
     max_str = s[0]
 
     for i in range(len(s) - 1):
+        # For odd length palindrome, we will consider the current character as the center and expand around it.
         odd = expand_from_center(i, i)
+        # For even length palindrome, we will consider the current character and the next character as the center and
+        # expand around it.
         even = expand_from_center(i, i+1)
 
         if len(odd) > len(max_str):
@@ -43,6 +46,7 @@ if __name__ == "__main__":
 
 
 """
+Brief note: The algo checks for every character position and every position in between characters.
 Analysis :
 To enumerate all palindromic substrings of a given string, we first expand a given string at each possible 
 starting position of a palindrome and also at each possible ending position of a palindrome and keep track of the 
@@ -57,7 +61,7 @@ the two 'b's.'
 Since expanding a palindrome around its center could take O(n) time, the overall complexity is O(n^2).
 
 Algorithm :
-At starting we have maz_str = s[0] and max_len = 1 as every single character is a palindrome.
+At starting we have max_str = s[0] and max_len = 1 as every single character is a palindrome.
 Now, we will iterate over the string and for every character we will expand around its center.
 For odd length palindrome, we will consider the current character as the center and expand around it.
 For even length palindrome, we will consider the current character and the next character as the center and 

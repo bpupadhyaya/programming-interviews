@@ -16,8 +16,13 @@ def merge(intervals: list[list[int]]) -> list[list[int]]:
     ans = []
     for interval in intervals:
         if not ans or ans[-1][1] < interval[0]:
+            # if the list of merged intervals is empty
+            # or if the current interval does not overlap with the previous,
+            # simply append it.
             ans.append(interval)
         else:
+            # otherwise, there is overlap,
+            # so we merge the current and previous intervals.
             ans[-1][1] = max(ans[-1][1], interval[1])
 
     return ans

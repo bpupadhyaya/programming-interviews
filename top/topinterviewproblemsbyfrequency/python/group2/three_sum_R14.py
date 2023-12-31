@@ -39,7 +39,7 @@ def three_sum(nums: list[int]) -> list[list[int]]:
             if -1 * num in nn:
                 res.add((-1 * num, 0, num))
 
-    #  4. If there are at least three zeros in teh list then also include (0, 0, 0) = 0
+    #  4. If there are at least three zeros in the list then also include (0, 0, 0) = 0
     if len(z) >= 3:
         res.add((0, 0, 0))
 

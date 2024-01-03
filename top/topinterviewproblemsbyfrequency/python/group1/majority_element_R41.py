@@ -4,7 +4,7 @@ The majority element is the element that appears more than ⌊n / 2⌋ times. Yo
 always exists in the array.
 
 Example:
-Input: c
+Input: [2, 2, 1, 1, 1, 2, 2]
 Output: 2
 
 Tag: R41/145

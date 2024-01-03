@@ -75,7 +75,7 @@ def top_k_frequent_3(nums: list[int], k: int) -> list[int]:
 def main():
     nums = [1, 1, 1, 2, 2, 3]
     k = 2
-    print(top_k_frequent_3(nums, k))
+    print(top_k_frequent(nums, k))
 
 
 if __name__ == "__main__":

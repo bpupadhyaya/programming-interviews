@@ -34,7 +34,7 @@ def max_path_sum(root: TreeNode) -> int:
         if root_:
             left = traverse(root_.left)
             right = traverse(root_.right)
-            max_sum = max(max_sum, root_.val, root_.val + left, root_.val + right, root_.val + left + + right)
+            max_sum = max(max_sum, root_.val, root_.val + left, root_.val + right, root_.val + left + right)
             return max(root_.val, root_.val + left, root_.val + right)
         else:
             return 0

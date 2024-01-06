@@ -44,7 +44,7 @@ arr[i+1] * arr[i+2] * .. * arr[n-1].
 
 So basically, we have to calculate prefix_product * postfix_product[i] for each element.
 
-Most solutions implementing the concept of Prefix and Postfix would suggest 2 traversals, however I felt that we 
+Most solutions implementing the concept of Prefix and Postfix would suggest 2 traversals, however, we 
 could one-up that and come up with a single for-loop solution.
 
 1. Initialize a Solution Array of same size as input array with value.

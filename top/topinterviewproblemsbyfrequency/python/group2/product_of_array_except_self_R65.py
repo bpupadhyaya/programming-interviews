@@ -37,11 +37,6 @@ if __name__ == "__main__":
 
 """
 Explanation:
-Intuition
-Like any other problem, my first intuition was let's brute force the solution by having two pointers going 
-from i-1 to 1 and i+1 to len(nums) and multiplying each element and then appending this result to the output array.
- However, on secondary thought (and mainly due to solving questions such as Prefix Sum and Postfix Sum before), 
- I could observe that we can use similar concept like Prefix and Postfix.
 
 Approach
 We use the fact that prefix_product of arr[i] is arr[0] * arr[1] * .. * arr[i-1] and postfix_product of arr[i] is 
@@ -61,10 +56,7 @@ could one-up that and come up with a single for-loop solution.
 6. As in Step 4, before calculating the postfix for i'th value , multiply the solution_array[n-i-1] with the 
 postfix product value i.e. products of input[i+1] to input[n-1].
 
-Please do like the solution if you understood it. Helps boosting visibility :-P
-
 Complexity
-Time complexity: O(n)O(n)O(n) Single Pass [Should technically be 100% faster than other solutions but Leetcode
- showing only 85%. Don't know why]
-Space complexity: Technically O(1)O(1)O(1) as we are not supposed to count the output array.
+Time complexity: O(n) Single Pass 
+Space complexity: Technically O(1) as we are not supposed to count the output array.
 """

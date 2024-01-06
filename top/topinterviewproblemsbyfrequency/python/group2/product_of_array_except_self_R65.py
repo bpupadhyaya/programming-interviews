@@ -58,5 +58,5 @@ postfix product value i.e. products of input[i+1] to input[n-1].
 
 Complexity
 Time complexity: O(n) Single Pass 
-Space complexity: Technically O(1) as we are not supposed to count the output array.
+Space complexity: Technically O(1) as we are not supposed to count the output array. ??? It uses O(n) extra space
 """

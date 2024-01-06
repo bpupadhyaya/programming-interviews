@@ -34,3 +34,37 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Explanation:
+Intuition
+Like any other problem, my first intuition was let's brute force the solution by having two pointers going 
+from i-1 to 1 and i+1 to len(nums) and multiplying each element and then appending this result to the output array.
+ However, on secondary thought (and mainly due to solving questions such as Prefix Sum and Postfix Sum before), 
+ I could observe that we can use similar concept like Prefix and Postfix.
+
+Approach
+We use the fact that prefix_product of arr[i] is arr[0] * arr[1] * .. * arr[i-1] and postfix_product of arr[i] is 
+arr[i+1] * arr[i+2] * .. * arr[n-1].
+
+So basically, we have to calculate prefix_product * postfix_product[i] for each element.
+
+Most solutions implementing the concept of Prefix and Postfix would suggest 2 traversals, however I felt that we 
+could one-up that and come up with a single for-loop solution.
+
+1. Initialize a Solution Array of same size as input array with value.
+2. Store Prefix and Postfix Product so far in variables.
+3. Traverse the input array.
+4. Before updating the values for each i, multiply current solution array value at i with the value of prefix
+ i.e. multiply with prefix product of the previous i-1 elements.
+5. Similarly, calculate the postfix product value for n-i-1 where n is length of input array at each iteration.
+6. As in Step 4, before calculating the postfix for i'th value , multiply the solution_array[n-i-1] with the 
+postfix product value i.e. products of input[i+1] to input[n-1].
+
+Please do like the solution if you understood it. Helps boosting visibility :-P
+
+Complexity
+Time complexity: O(n)O(n)O(n) Single Pass [Should technically be 100% faster than other solutions but Leetcode
+ showing only 85%. Don't know why]
+Space complexity: Technically O(1)O(1)O(1) as we are not supposed to count the output array.
+"""

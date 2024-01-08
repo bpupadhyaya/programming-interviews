@@ -19,14 +19,17 @@ def merge_two_sorted_arrays(nums1, m, nums2, n):
     for j in range(n):
         nums1[m+j] = nums2[j]
     nums1.sort()
+
+
 def main():
-    nums1 = [4,5,8,0,0,0,0]
-    nums2 = [6,7,8,9]
-    m = 3;
-    n = 4;
+    nums1 = [4, 5, 8, 0, 0, 0, 0]
+    nums2 = [6, 7, 8, 9]
+    m = 3
+    n = 4
     merge_two_sorted_arrays(nums1, m, nums2, n)
     print('Merged array: ',nums1)
     print('\n')
+
 
 if __name__ == "__main__":
     main()

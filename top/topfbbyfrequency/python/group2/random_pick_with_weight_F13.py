@@ -69,6 +69,7 @@ def main():
     print(solution.pick_index())  # return 0. It is returning the first element (index = 0) that has a
     # probability of 1/4.
 
+
 if __name__ == "__main__":
     main()
 

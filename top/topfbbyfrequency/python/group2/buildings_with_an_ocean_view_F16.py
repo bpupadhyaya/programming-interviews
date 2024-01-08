@@ -16,7 +16,9 @@ Tag: fb R16/50, 1762/2927, R271/2936
 """
 
 from collections import deque
-def findBuildings(heights: list[int]) -> list[int]:
+
+
+def find_buildings(heights: list[int]) -> list[int]:
     result = [len(heights) - 1]
     for i in range(len(heights) - 2, -1, -1):
         if heights[i] > heights[result[-1]]:
@@ -24,16 +26,19 @@ def findBuildings(heights: list[int]) -> list[int]:
     result.reverse()
     return result
 
-def findBuildings1(heights: list[int]) -> list[int]:
+
+def find_buildings1(heights: list[int]) -> list[int]:
     result = deque([len(heights) - 1])
     for i in range(len(heights) - 2, -1, -1):
         if heights[i] > heights[result[0]]:
             result.appendleft(i)
     return result
 
+
 def main():
-    heights = [4,2,3,1]
-    print('Building with ocean view: ', findBuildings1(heights))
+    heights = [4, 2, 3, 1]
+    print('Building with ocean view: ', find_buildings1(heights))
+
 
 if __name__ == "__main__":
     main()

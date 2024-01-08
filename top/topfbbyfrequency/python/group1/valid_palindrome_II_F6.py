@@ -8,7 +8,8 @@ Explanation: You could delete the character 'c'.
 Tag: 680/2927, R97/2936 (overall), fb R6/50,
 """
 
-def validPalindrome(s: str) -> bool:
+
+def valid_palindrome(s: str) -> bool:
     def verify(s, left, right, deleted):
         while left < right:
             if s[left] != s[right]:
@@ -22,9 +23,11 @@ def validPalindrome(s: str) -> bool:
         return True;
     return verify(s, 0, len(s)-1, False)
 
+
 def main():
     s = "abca"
-    print('Result: ', validPalindrome(s))
+    print('Result: ', valid_palindrome(s))
+
 
 if __name__ == "__main__":
     main()

@@ -56,9 +56,11 @@ class Robot:
     def clean(self):
 """
 
+
 def clean_room(robot: 'Robot'):
-    directions = [(0,1),(1,0),(0,-1),(-1,0)]
+    directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
     cleaned = set()
+
     def dfs(robot_inner: 'Robot', x: int, y: int, direction: int):
         if (x,y) in cleaned:
             return
@@ -79,10 +81,15 @@ def clean_room(robot: 'Robot'):
 
 
 def main():
-    room = [[1,1,1,1,1,0,1,1],[1,1,1,1,1,0,1,1],[1,0,1,1,1,1,1,1],[0,0,0,1,0,0,0,0],[1,1,1,1,1,1,1,1]],
+    room = [[1, 1, 1, 1, 1, 0, 1, 1],
+            [1, 1, 1, 1, 1, 0, 1, 1],
+            [1, 0, 1, 1, 1, 1, 1, 1],
+            [0, 0, 0, 1, 0, 0, 0, 0],
+            [1, 1, 1, 1, 1, 1, 1, 1]],
     row = 1
     col = 3
     # API implementation details not available so not testable from local
+
 
 if __name__ == "__main__":
     main()

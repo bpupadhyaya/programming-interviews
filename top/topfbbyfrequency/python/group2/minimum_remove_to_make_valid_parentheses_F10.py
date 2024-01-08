@@ -17,7 +17,8 @@ Output: "ab(c)d"
 Tag: fb R10/50, 1249/2927, R136/2936
 """
 
-def minRemoveToMakeValid(s: str) -> str:
+
+def min_remove_to_make_valid(s: str) -> str:
     s = list(s)
     stack = []
     for i, char in enumerate(s):
@@ -32,9 +33,11 @@ def minRemoveToMakeValid(s: str) -> str:
         s[stack.pop()] = ''
     return ''.join(s)
 
+
 def main():
     s = "a)b(c)d"
-    print('Given: ', s, '\nAfter: ', minRemoveToMakeValid(s))
+    print('Given: ', s, '\nAfter: ', min_remove_to_make_valid(s))
+
 
 if __name__ == "__main__":
     main()

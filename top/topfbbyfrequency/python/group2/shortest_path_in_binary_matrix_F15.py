@@ -18,8 +18,10 @@ Tag: fb R15/50, 1091/2927, R265/2936.
 """
 
 from collections import deque
-def shortestPathBinaryMatrix(grid: list[list[int]]) -> int:
-    # check if source and target arenot clear cells
+
+
+def shortest_path_binary_matrix(grid: list[list[int]]) -> int:
+    # check if source and target are not clear cells
     if grid[0][0] != 0 or grid[-1][-1] != 0:
         return -1
 
@@ -37,9 +39,9 @@ def shortestPathBinaryMatrix(grid: list[list[int]]) -> int:
             new_col = y + y_offset
 
             if 0 <= new_row and 0 <= new_col < N and not grid[new_row][new_col] and (new_row, new_col) not in visited:
-                yield (new_row, new_col)
+                yield new_row, new_col
 
-    current_distance = 1 # start with one clear cell
+    current_distance = 1  # start with one clear cell
     # standard iterative BFS traversal
     while q:
         length = len(q)
@@ -60,9 +62,11 @@ def shortestPathBinaryMatrix(grid: list[list[int]]) -> int:
 
     return -1
 
+
 def main():
-    grid = [[0,0,0],[1,1,0],[1,1,0]]
-    print('Shortest path: ', shortestPathBinaryMatrix(grid))
+    grid = [[0, 0, 0], [1, 1, 0], [1, 1, 0]]
+    print('Shortest path: ', shortest_path_binary_matrix(grid))
+
 
 if __name__ == "__main__":
     main()

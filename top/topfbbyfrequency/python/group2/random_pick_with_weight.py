@@ -23,8 +23,12 @@ solution.pickIndex(); // return 0. It is returning the first element (index = 0)
 
 Tag: fb R13/50, 528/2927, R192/2936.
 """
-#from typing import List
+
+
+# from typing import List
 import random
+
+
 class Solution:
     def __init__(self, w: list[int]):
         self.w = w
@@ -36,7 +40,7 @@ class Solution:
         for i in range(1, len(self.w)):
             self.w[i] += self.w[i-1]
 
-    def pickIndex(self) -> int:
+    def pick_index(self) -> int:
         # this is where we pick the index
         N = random.uniform(0,1)
 
@@ -54,14 +58,15 @@ class Solution:
 
         return index
 
+
 def main():
-    solution = Solution([1, 3]);
-    print(solution.pickIndex()); # return 1. It is returning the second element (index = 1) that has a
+    solution = Solution([1, 3])
+    print(solution.pick_index())  # return 1. It is returning the second element (index = 1) that has a
     # probability of 3/4.
-    print(solution.pickIndex()); # return 1
-    print(solution.pickIndex()); # return 1
-    print(solution.pickIndex()); # return 1
-    print(solution.pickIndex()); # return 0. It is returning the first element (index = 0) that has a
+    print(solution.pick_index())  # return 1
+    print(solution.pick_index())  # return 1
+    print(solution.pick_index())  # return 1
+    print(solution.pick_index())  # return 0. It is returning the first element (index = 0) that has a
     # probability of 1/4.
 
 if __name__ == "__main__":

@@ -27,7 +27,7 @@ def is_toeplitz_matrix(matrix: list[list[int]]) -> bool:
 
 
 def main():
-    matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
+    matrix = [[1, 2, 3, 4], [5, 1, 2, 3], [9, 5, 1, 2]]
     print("Is Toeplitz? ", is_toeplitz_matrix(matrix))
 
 

@@ -62,11 +62,11 @@ def clean_room(robot: 'Robot'):
     cleaned = set()
 
     def dfs(robot_inner: 'Robot', x: int, y: int, direction: int):
-        if (x,y) in cleaned:
+        if (x, y) in cleaned:
             return
         robot_inner.clean()
-        cleaned.add((x,y))
-        for i,(dx,dy) in enumerate(directions[direction:] + directions[:direction]):
+        cleaned.add((x, y))
+        for i, (dx, dy) in enumerate(directions[direction:] + directions[:direction]):
             nx = x + dx
             ny = y + dy
             if robot_inner.move():
@@ -93,7 +93,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-

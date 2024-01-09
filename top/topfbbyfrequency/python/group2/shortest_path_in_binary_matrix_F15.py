@@ -29,11 +29,11 @@ def shortest_path_binary_matrix(grid: list[list[int]]) -> int:
     # offsets required for all 8 directions
     offsets = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
     q = deque()
-    q.append((0,0)) # starting point
-    visited = {(0,0)}
+    q.append((0, 0))  # starting point
+    visited = {(0, 0)}
 
     # finds unvisited cler cells using 8 offsets
-    def get_neighbours(x,y):
+    def get_neighbours(x, y):
         for x_offset, y_offset in offsets:
             new_row = x + x_offset
             new_col = y + y_offset
@@ -50,7 +50,7 @@ def shortest_path_binary_matrix(grid: list[list[int]]) -> int:
         for _ in range(length):
             row, col = q.popleft()
 
-            if row == N-1 and col == N-1: # reached the target
+            if row == N-1 and col == N-1:  # reached the target
                 return current_distance
 
             # loop through all valid neighbors
@@ -58,7 +58,7 @@ def shortest_path_binary_matrix(grid: list[list[int]]) -> int:
                 visited.add(p)
                 q.append(p)
 
-        current_distance += 1 # update the level or distance from source
+        current_distance += 1  # update the level or distance from source
 
     return -1
 

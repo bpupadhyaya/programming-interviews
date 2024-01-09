@@ -21,6 +21,7 @@ Tag: fb R41/50, 708/2927, R1231/2936
 Note: Programs runs but produces wrong output, debug and fix it.
 """
 
+
 class Node:
     def __init__(self, val=None, next=None):
         self.val = val

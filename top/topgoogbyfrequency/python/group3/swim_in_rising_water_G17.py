@@ -41,14 +41,14 @@ def swim_in_water(grid: list[list[int]]) -> int:
     # Directions to traverse
     directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
 
-    # Minheap storing (elevation,x co-ordinat, y co-ordinate)
+    # Minheap storing (elevation,x co-ordinate, y co-ordinate)
     minheap = [(grid[0][0], 0, 0)]
 
-    # Remains same, as this is start postion
+    # Remains same, as this is start position
     cache[0][0] = grid[0][0]
 
     while minheap:
-        # Popping position with miniumm elevation
+        # Popping position with minimum elevation
         elevation, i, j = heapq.heappop(minheap)
 
         # Base case to reach end

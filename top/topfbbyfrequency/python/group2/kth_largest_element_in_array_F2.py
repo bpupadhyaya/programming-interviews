@@ -33,3 +33,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Note:
+The idea is to break the list into two parts 0 to k and k (inclusive) to last element.
+Compare each element in second partition with each element in first partition and if greater: remove smallest
+from the first partition (note: heappop(<heap-name>) removes the smallest and maintains the order) and push the larger
+one in the first partition (again order / heap invariant is maintained). Repeat until all elements in second partition
+are covered. By that time, first partition will have k largest elements in sorted order. First element is the k
+largest.
+"""

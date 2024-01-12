@@ -20,7 +20,7 @@ def valid_palindrome(s: str) -> bool:
             else:
                 left += 1
                 right -= 1
-        return True;
+        return True
     return verify(s, 0, len(s)-1, False)
 
 

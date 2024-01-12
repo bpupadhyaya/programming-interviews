@@ -44,7 +44,7 @@ def subarray_sum(nums, k):
 def main():
     nums = [1, 1, 1]
     k = 2
-    print(subarray_sum1(nums, k))
+    print(subarray_sum(nums, k))
 
 
 if __name__ == "__main__":

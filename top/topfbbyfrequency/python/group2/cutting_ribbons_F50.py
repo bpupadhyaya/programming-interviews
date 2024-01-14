@@ -60,7 +60,7 @@ def max_length(ribbons: list[int], k: int) -> int:
 
 
 def main():
-    ribbons = [9,7,5]
+    ribbons = [9, 7, 5]
     k = 3
     print('Max length: ', max_length(ribbons, k))
 

@@ -37,7 +37,8 @@ def exclusive_time(n: int, logs: list[str]) -> list[int]:
     ans, s = [0] * n, []                                        # initializes answer and stack
     for (i, status, timestamp) in logs:                         # for each record
         if status == 'start':                                   # if it is start
-            if s: ans[s[-1][0]] += timestamp - s[-1][1] # if s is not empty, update time spent on previous id (s[-1][0])
+            if s:
+                ans[s[-1][0]] += timestamp - s[-1][1]  # if s is not empty, update time spent on previous id (s[-1][0])
             s.append([i, timestamp])                            # then add to top of stack
         else:                                                   # if it is end
             ans[i] += timestamp - s.pop()[1] + 1                # update time spent on `i`

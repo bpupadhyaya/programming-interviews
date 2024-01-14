@@ -39,7 +39,7 @@ class MovingAverage:
 
     def next(self, val: int) -> float:
         if self.length < self.max:
-            self.length +=1
+            self.length += 1
             self.queue.append(val)
             self.sum += val
         else:

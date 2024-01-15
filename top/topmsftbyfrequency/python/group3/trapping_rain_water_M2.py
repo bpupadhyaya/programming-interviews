@@ -40,7 +40,7 @@ def trap(height: list[int]) -> int:
             ans += left_max - height[i]
             i += 1
 
-        # Fill water upto right_max level for index j and move j t othe left
+        # Fill water upto right_max level for index j and move j to the left
         else:
             ans += right_max - height[j]
             j -= 1

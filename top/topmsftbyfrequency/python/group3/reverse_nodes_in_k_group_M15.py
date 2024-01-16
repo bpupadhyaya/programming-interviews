@@ -33,7 +33,7 @@ def reverse_k_group(head: Optional[ListNode], k: int) -> Optional[ListNode]:
             return head
         curr = curr.next
 
-    # Reverse the group (basic way to reverse linkedin list)
+    # Reverse the group (basic way to reverse linked list)
     prev = None
     curr = head
     for _ in range(k):

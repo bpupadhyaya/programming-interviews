@@ -4,14 +4,14 @@ from time import sleep
 
 def my_worker(msg):
     for i in range(0, 10):
-        print('msg', end='', flush=True)
+        print(msg, end='', flush=True)
         sleep(1)
     return i
 
 
 def main():
     print('Setting up the ThreadPoolExecutor...')
-    pool = ThreadPoolExecutor(1)
+    pool = ThreadPoolExecutor(5)
 
     # Submit the function to the pool to run
     # Concurrently, obtain a future from the pool

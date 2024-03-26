@@ -27,6 +27,7 @@ def main():
 
     print('Waiting for futures to complete')
     wait(futures)
+    print('futures value at 0:', futures[0].result())
     print('\nDone')
 
 

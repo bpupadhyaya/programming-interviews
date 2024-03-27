@@ -1,5 +1,5 @@
 import rx
-from rx.scheduler import ThreadPoolScheduler,NewThreadScheduler, ImmediateScheduler
+from rx.scheduler import ThreadPoolScheduler, NewThreadScheduler, ImmediateScheduler
 
 
 def main():

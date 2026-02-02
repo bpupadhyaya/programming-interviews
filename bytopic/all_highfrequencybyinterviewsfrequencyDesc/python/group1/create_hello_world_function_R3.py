@@ -18,3 +18,11 @@ Tag: 2667/2927, R3/2936 (overall frequency ranking)
 Cat: g1
 """
 
+def create_hello_world():
+    return "Hello World"
+
+def main():
+    print(create_hello_world())
+
+if __name__ == "__main__":
+    main()

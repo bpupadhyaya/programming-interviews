@@ -1,0 +1,20 @@
+"""
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order.
+- Every close bracket has a corresponding open bracket of the same type.
+
+Example:
+Input: s = "()[]{}"
+Output: true
+
+Constraints:
+1 <= s.length <= 10^4
+s consists of parentheses only '()[]{}'.
+
+Tag: 52/150, R2/145 (top interview frequency ranking)
+Tag: 20/2927, R2/2936 (overall frequency ranking)
+Cat: g1
+"""
+

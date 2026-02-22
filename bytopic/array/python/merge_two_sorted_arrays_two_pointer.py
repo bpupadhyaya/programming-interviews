@@ -45,6 +45,6 @@ if __name__ == "__main__":
 # Compare the highest elements in both the arrays; whichever is higher, copy that to the max. available index
 # in nums1. Next, compare two highest available elements again and copy the greater one to the next max. available index
 # in nums1. Repeat this process. Our lower bound is index of both nums1 and nums2 should not be less than 0.
-# Less than 0 index is not available and that will resutl an error. That is the check we have in the above code:
+# Less than 0 index is not available and that will result an error. That is the check we have in the above code:
 # while and if LOCs.
 

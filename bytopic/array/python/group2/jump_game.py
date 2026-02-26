@@ -14,7 +14,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 impossible to reach the last index.
 
 Tag: 9/150
-Tag: 55/2927, R30/2936 (overall frequency ranking)
+Tag: 55/2927, R130/2936 (overall frequency ranking)
 """
 
 

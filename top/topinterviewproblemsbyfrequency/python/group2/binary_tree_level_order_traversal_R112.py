@@ -41,11 +41,37 @@ def level_order(root: Optional[TreeNode]) -> list[list[int]]:
     return list1
 
 
+def level_order_ai_gemini(root: Optional[TreeNode]) -> list[list[int]]:
+    if not root:
+        return []
+
+    result = []
+    queue = deque([root])  # Start with the root in the queue
+
+    while queue:
+        level_size = len(queue)  # Snapshots the number of nodes at this level
+        current_level = []
+
+        for _ in range(level_size):
+            node = queue.popleft()
+            current_level.append(node.val)
+
+            # Only add children if they actually exist
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+
+        result.append(current_level)
+
+    return result
+
+
 def main():
     root = TreeNode(3, TreeNode(9), TreeNode(20))
     root.right.left = TreeNode(15)
     root.right.right = TreeNode(7)
-    print(level_order(root))
+    print(level_order_ai_gemini(root))
 
 
 if __name__ == "__main__":

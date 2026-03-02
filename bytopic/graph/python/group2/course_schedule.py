@@ -25,8 +25,8 @@ def can_finish(num_courses: int, prerequisites: list[list[int]]) -> bool:
 
     for pair in prerequisites:
         course = pair[0]
-        prerequisites = pair[1]
-        adj[prerequisites].append(course)
+        prereq = pair[1]
+        adj[prereq].append(course)
         in_degree[course] += 1
 
     queue = deque()
